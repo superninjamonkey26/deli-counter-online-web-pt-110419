@@ -18,7 +18,7 @@ def take_a_number(array, string)
   end
 end
 
-def now_serving
+def now_serving(array)
   if array.size == 0
   puts "The line is currently empty."
   end
