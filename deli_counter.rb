@@ -13,6 +13,6 @@ def take_a_number(array, string)
   array << ("Ada")
   puts "Welcome, Ada. You are number 1 in line."
   elsif array.size > 0
-  array.push
+  array.push("Grace")
   end
 end
