@@ -17,3 +17,7 @@ def take_a_number(array, string)
   puts "Welcome, Grace. You are number 4 in line."
   end
 end
+
+def now_serving
+  
+end
