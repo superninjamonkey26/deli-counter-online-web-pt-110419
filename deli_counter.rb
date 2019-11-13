@@ -11,7 +11,7 @@ end
 def take_a_number(array, string)
   if array.size == 0
   array << ("Ada")
-  puts "Welcome, Ada. You are number 1 in line."
+  puts "Welcome, #{}. You are number 1 in line."
   elsif array.size > 0
   array.push("Grace")
   puts "Welcome, Grace. You are number 4 in line."
