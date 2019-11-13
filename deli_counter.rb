@@ -10,3 +10,4 @@ end
 
 def take_a_number(array, string)
   take_a_number << "Ada"
+end
