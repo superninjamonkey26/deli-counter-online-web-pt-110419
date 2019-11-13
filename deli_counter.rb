@@ -11,10 +11,6 @@ end
 def take_a_number(array, string)
  array << string
   puts "Welcome, #{string}. You are number #{array.size} in line."
-#  elsif array.size > 0
- # array.push("Grace")
-#  puts "Welcome, Grace. You are number 4 in line."
- # end
 end
 
 def now_serving(array)
