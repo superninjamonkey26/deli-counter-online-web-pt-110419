@@ -3,8 +3,10 @@ def line(array)
     puts "The line is currently empty."
   else
     new_line = "The line is currently:"
-  #else another_deli
-   # return "The line is currently: 1. Amanda 2. Annette 3. Ruchi 4. Jason 5. Logan 6. Spencer 7. Avi 8. Joe 9. Rachel 10. Lindsey"
+    array.each_with_index { |name, i|
+    new_line << " #{i + 1}. #{name}"
+    }
+    puts new_line
   end
 end
 
