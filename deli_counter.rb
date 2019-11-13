@@ -9,8 +9,6 @@ def line(array)
 end
 
 def take_a_number(array, string)
-  #if array.size == 0
- # array << ("Ada")
  array << string
   puts "Welcome, #{string}. You are number #{array.size} in line."
 #  elsif array.size > 0
