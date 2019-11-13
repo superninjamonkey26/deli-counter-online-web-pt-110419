@@ -10,6 +10,6 @@ end
 
 def take_a_number(array, string)
   if array.size == 0
-  take_a_number << "Ada"
+  array << "Ada"
   end
 end
