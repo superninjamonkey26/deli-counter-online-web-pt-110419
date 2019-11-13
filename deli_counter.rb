@@ -10,7 +10,7 @@ end
 
 def take_a_number(array, string)
   if array.size == 0
- # array << ("Ada")
+  array << ("Ada")
   puts "Welcome, Ada. You are number 1 in line."
   end
 end
