@@ -14,7 +14,7 @@ def take_a_number(array, string)
   puts "Welcome, #{string}. You are number #{array.size} in line."
   elsif array.size > 0
   array.push("Grace")
-  puts "Welcome, #{array.push}. You are number 4 in line."
+  puts "Welcome, #{array.size}. You are number 4 in line."
   end
 end
 
