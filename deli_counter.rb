@@ -11,6 +11,6 @@ end
 def take_a_number(array, string)
   if array.size == 0
   array << "Ada"
-  puts "Welcome, #{name}. You are number #{number} in line."
+  puts "Welcome, #{array}. You are number #{number} in line."
   end
 end
