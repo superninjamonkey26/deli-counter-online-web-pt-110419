@@ -8,7 +8,7 @@ def line(array)
   end
 end
 
-def take_a_number(katz_deli, ada)
+def take_a_number(array, string)
   if array.size == 0
   array << "Ada"
   puts "Welcome, #{name}. You are number #{number} in line."
