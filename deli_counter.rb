@@ -12,5 +12,5 @@ def take_a_number(array, string)
   if array.size == 0
   array << "Ada"
   end
-  puts array
+  puts string
 end
