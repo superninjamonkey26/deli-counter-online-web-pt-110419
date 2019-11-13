@@ -20,6 +20,6 @@ end
 
 def now_serving
   if array.size == 0
-  puts "There is nobody waiting to be served!"
+  puts "The line is currently empty."
   end
 end
